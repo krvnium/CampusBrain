@@ -1,0 +1,8 @@
+:root {
+  --bg: #232522; --surface: #fbf9de; --fg: #e4e3be; --muted: #8e9078;
+  --border: #c9caa9; --accent: #ea6a2f; --sage: #c9caa9; --cream: #e4e3be;
+  --soft: #fbf9de; --blue: #a9b8ea; --green: #a8ddb0; --ink: #232522;
+  --radius-xl: 34px; --radius-lg: 24px; --radius-md: 14px;
+  font-family: 'General Sans', 'Avenir Next', 'Segoe UI', sans-serif;
+}
+:root[data-theme='light'] { --bg: #fbf9de; --surface: #232522; --fg: #232522; --muted: #646653; --border: #8e9078; --cream: #232522; --soft: #e4e3be; --ink: #232522; }
