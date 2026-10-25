@@ -53,3 +53,18 @@ uvicorn main:app --reload
 - Integration of the PyMuPDF parser (from my Week 2 ScopeShield project) for academic notice ingestion.
 
 - Gemma 4 open-weights API connection for the CampusBrain Chat interface.
+
+## 📸 Screenshots
+
+**The Executive Dashboard**
+![Executive Dashboard](Screenshots/Screenshot_2026-10-26_03-49-46.png)
+*The primary dashboard scaffold showing modular component blocks for Attendance, Reminders, and Subjects. Currently displaying honest empty states while the SQLite backend is finalized.*
+
+**The Chat Interface**
+![Chat Interface](Screenshots/Screenshot_2026-10-26_03-50-34.png)
+*The dedicated 'Ask CampusBrain' chat workspace, featuring dynamic input fields and contextual quick-action pills.*
+
+**Auth & Onboarding Flow**
+![Welcome Back](Screenshots/Screenshot_2026-10-26_03-51-02.png)
+![Create Profile](Screenshots/Screenshot_2026-10-26_03-51-07.png)
+*Local-first authentication foundation. User profiles remain isolated on the device until remote sync is implemented.*
